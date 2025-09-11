@@ -1,0 +1,31 @@
+import AvatarService from '@/components/AvatarService'
+import CircleImage from '@/components/CircleImage'
+import SliderServices from '@/components/SliderServices'
+import TransitionPage from '@/components/TransitionPage'
+
+export default function ServicesPage() {
+  return (
+    <>
+      <TransitionPage />
+      <CircleImage />
+      <AvatarService />
+
+      <div className='grid items-center justify-center h-screen max-w-5xl gap-6 mx-auto md:grid-cols-2 md:px-20'>
+        <div className='max-w-[450px] mt-20 md:mt-0'>
+          <h1 className='text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5'>
+            Mis {' '}
+            <span className='font-bold text-orange-400'>Servicios.</span>
+          </h1>
+          <p className='mx-3 md:mx-0 mb-3 text-xl text-gray-300'>Como Desarrollador Full Stack e Ingeniero en Sistemas, ofrezco soluciones digitales completas que abarcan todo el ciclo de desarrollo de aplicaciones web, desde la idea hasta la implementación</p>
+          <div className='flex justify-center md:justify-start'>
+            <button className='px-3 py-2 rounded-lg cursor-pointer bg-orange-400 hover:bg-orange-400/65'>Contáctame</button>
+          </div>
+        </div>
+        <div>
+          <SliderServices />
+        </div>
+      </div>
+
+    </>
+  )
+}
