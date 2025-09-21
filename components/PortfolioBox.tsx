@@ -13,7 +13,7 @@ interface PortfolioBoxProps {
 
 export default function PortfolioBox(props: PortfolioBoxProps) {
     const { data } = props;
-    const { id, title, image, urlGithub, urlDemo } = data;
+    const { title, image, urlGithub, urlDemo } = data;
 
     return (
         <div className="p-4 border border-teal-50 rounded-xl">
@@ -25,9 +25,11 @@ export default function PortfolioBox(props: PortfolioBoxProps) {
                 <Link href={urlGithub} target="_blank" className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/80">
                     GitHub
                 </Link>
-                <Link href={urlDemo} target="_blank" className="p-2 transition duration-150 rounded-lg bg-orange-400 hover:bg-orange-400/80">
-                    Demo
-                </Link>
+                {urlDemo !== "#!" &&
+                    <Link href={urlDemo} target="_blank" className="p-2 transition duration-150 rounded-lg bg-orange-400 hover:bg-orange-400/80">
+                        Demo
+                    </Link>
+                }
             </div>
         </div>
     )

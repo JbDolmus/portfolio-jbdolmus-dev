@@ -8,8 +8,8 @@ import Navbar from "@/components/Navbar";
 import Header from "@/components/Header";
 
 const urbanist = Urbanist({
-  variable: "--font-urbanist",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${urbanist.variable} `}
+        className={`${urbanist.className} antialiased`}
       >
         <Navbar />
         <Header />

@@ -1,24 +1,51 @@
-"use client"
+"use client";
 
 import { itemsNavbar } from "@/data";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import TransitionComponent from "./TransitionComponent";
+import * as Tooltip from "@radix-ui/react-tooltip"; // ✅ Importar Radix Tooltip
 
 export default function Navbar() {
     const router = usePathname();
 
     return (
-        <TransitionComponent position="right" className="fixed z-40 flex flex-col items-center justify-center w-full mt-auto h-max bottom-10">
-            <nav className="flex items-center justify-center gap-2 px-4 py-1 rounded-full bg-white/15 background-blur-sm">
-                {itemsNavbar.map((item) => (
-                    <div key={item.id}
-                        className={`px-3 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-orange-400 ${router === item.link && 'bg-orange-400'}`}
-                    >
-                        <Link href={item.link}>{item.icon}</Link>
-                    </div>
-                ))}
-            </nav>
+        <TransitionComponent
+            position="right"
+            className="fixed z-40 flex flex-col items-center justify-center w-full mt-auto h-max bottom-10"
+        >
+            <Tooltip.Provider delayDuration={100}>
+                <nav className="flex items-center justify-center gap-2 px-4 py-1 rounded-full bg-white/15 backdrop-blur-sm">
+                    {itemsNavbar.map((item) => (
+                        <Tooltip.Root key={item.id}>
+                            <Tooltip.Trigger asChild>
+                                <div
+                                    className={`px-3 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-orange-400 ${router === item.link && "bg-orange-400"
+                                        }`}
+                                >
+                                    <Link href={item.link}>{item.icon}</Link>
+                                </div>
+                            </Tooltip.Trigger>
+
+                            <Tooltip.Content
+                                side="top"
+                                sideOffset={6}
+                                className="bg-orange-500/90 text-white text-xs px-3 py-1 rounded-md shadow-md select-none"
+                            >
+                                <div className="flex flex-col items-center">
+                                    <span className="font-semibold">
+                                        {item.titleEnglish}
+                                    </span>
+                                    <span className="text-orange-100">
+                                        {item.titleSpanish}
+                                    </span>
+                                </div>
+                                <Tooltip.Arrow className="fill-orange-500/90" />
+                            </Tooltip.Content>
+                        </Tooltip.Root>
+                    ))}
+                </nav>
+            </Tooltip.Provider>
         </TransitionComponent>
-    )
+    );
 }

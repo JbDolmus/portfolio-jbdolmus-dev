@@ -1,7 +1,9 @@
+"use client"
 import AvatarService from '@/components/AvatarService'
 import CircleImage from '@/components/CircleImage'
 import SliderServices from '@/components/SliderServices'
 import TransitionPage from '@/components/TransitionPage'
+import Link from 'next/link'
 
 export default function ServicesPage() {
   return (
@@ -18,7 +20,11 @@ export default function ServicesPage() {
           </h1>
           <p className='mx-3 md:mx-0 mb-3 text-xl text-gray-300'>Como Desarrollador Full Stack e Ingeniero en Sistemas, ofrezco soluciones digitales completas que abarcan todo el ciclo de desarrollo de aplicaciones web, desde la idea hasta la implementación</p>
           <div className='flex justify-center md:justify-start'>
-            <button className='px-3 py-2 rounded-lg cursor-pointer bg-orange-400 hover:bg-orange-400/65'>Contáctame</button>
+            <Link
+              href="mailto:jbautista.dormo.corea@gmail.com?subject=Consulta%20Profesional&body=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios."
+              className='px-3 py-2 rounded-lg cursor-pointer bg-orange-400 hover:bg-orange-400/65'
+              target='_blank'
+            >Contáctame</Link>
           </div>
         </div>
         <div>

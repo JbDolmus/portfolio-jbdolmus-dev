@@ -1,30 +1,31 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Github, Facebook, Youtube, Computer, Code, Layout, Server, Database, Link2, BarChart } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export const socialNetworks = [
     {
         id: 1,
         logo: <Youtube size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.youtube.com/@juandolmus3574",
     },
     {
         id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.linkedin.com/in/juan-dolmus-094671286/",
     },
     {
         id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <Github size={30} strokeWidth={1} />,
+        src: "https://github.com/JbDolmus",
     },
     {
         id: 4,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <FaWhatsapp size={30} strokeWidth={1} />,
+        src: "https://wa.me/50671358700?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios%20profesionales.",
     },
     {
         id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <Facebook size={30} strokeWidth={1} />,
+        src: "https://www.facebook.com/jb.dolmus",
     },
 ];
 
@@ -32,93 +33,106 @@ export const socialNetworks = [
 export const itemsNavbar = [
     {
         id: 1,
-        title: "Home",
+        titleEnglish: "Home",
+        titleSpanish: "Inicio",
         icon: <HomeIcon size={25} color="#fff" strokeWidth={1} />,
         link: "/",
     },
     {
         id: 2,
-        title: "User",
+        titleEnglish: "About me",
+        titleSpanish: "Sobre mí",
         icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
         link: "/about-me",
     },
     {
         id: 3,
-        title: "Book",
+        titleEnglish: "Services",
+        titleSpanish: "Servicios",
         icon: <BookText size={25} color="#fff" strokeWidth={1} />,
         link: "/services",
     },
     {
         id: 4,
-        title: "Target",
+        titleEnglish: "Portfolios",
+        titleSpanish: "Portafolios",
         icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
         link: "/portfolio",
     },
     {
         id: 5,
-        title: "Home",
-        icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-        link: "/testimonials",
+        titleEnglish: "Technologies",
+        titleSpanish: "Tecnologías",
+        icon: <Computer size={25} color="#fff" strokeWidth={1} />,
+        link: "/technologies",
     },
 ];
 
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Frontend Developer",
-        subtitle: "TechSolutions",
-        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-        date: "Nov 2023 ",
+        title: "Desarrollador Full Stack",
+        subtitle: "BeGreat",
+        description: "En febrero de 2023, colaboré en equipo para desarrollar un sistema web para la gestión de cursos, inscripción de estudiantes y profesores, entre otras funcionalidades. Se utilizó Java con Spring Boot en el backend y ReactJS en el frontend, incorporando librerías de seguridad como JWT.",
+        date: "Feb 2023",
     },
     {
         id: 2,
-        title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
+        title: "Desarrollador Full Stack",
+        subtitle: "Aplicación móvil para Restaurante",
+        description: "En febrero de 2024, trabajé junto a un equipo en el diseño de una aplicación móvil usando MAUI .NET en el frontend y .NET en el backend, ofreciendo una experiencia fluida y moderna para la gestión de un restaurante.",
+        date: "Feb 2024",
     },
     {
         id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
+        title: "Frontend Developer",
+        subtitle: "App de compra e intercambio de tickets",
+        description: "En julio de 2024, diseñé junto a un equipo una aplicación multiplataforma para gestionar compra e intercambio de tickets, utilizando Django en el backend, ReactJS en el frontend web y React Native en el frontend móvil.",
+        date: "Jul 2024",
     },
     {
         id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
+        title: "Frontend Developer",
+        subtitle: "App para Restaurante",
+        description: "En noviembre de 2024, desarrollé todo el frontend de una aplicación para un restaurante usando ReactJS, asegurando interfaces intuitivas y funcionales, trabajando en conjunto con otro desarrollador.",
+        date: "Nov 2024",
     },
-]
+    {
+        id: 5,
+        title: "Práctica Profesional",
+        subtitle: "Adnet Soluciones S.A.",
+        description: "En noviembre de 2024, desarrollé un sistema de gestión de tickets tipo Trello, utilizando ReactJS, librerías como MUI para estilos, y conectando con la REST API de Unsplash para consumo de imágenes, aportando a un proyecto real durante mi práctica profesional.",
+        date: "Nov 2024",
+    },
+];
+
 
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 10,
+        endCounter: 2,
         text: "Años de experiencia",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 1,
-        endCounter: 80,
+        endCounter: 3,
         text: "Clientes satisfechos",
         lineRight: true,
         lineRightMobile: false,
     },
     {
         id: 2,
-        endCounter: 220,
+        endCounter: 10,
         text: "Proyectos finalizados",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 3,
-        endCounter: 30,
-        text: "Premios ganadores",
+        endCounter: 3,
+        text: "Proyectos en curso",
         lineRight: false,
         lineRightMobile: false,
     },
@@ -126,132 +140,186 @@ export const dataCounter = [
 
 export const serviceData = [
     {
-        icon: <Crop />,
-        title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
+        icon: <Code />,
+        title: "Desarrollo Full Stack",
+        description:
+            "Construcción de aplicaciones web completas y escalables, desde el frontend hasta el backend, aplicando tecnologías modernas y buenas prácticas.",
     },
     {
-        icon: <Pencil />,
-        title: "Diseño web",
-        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
+        icon: <Layout />,
+        title: "Frontend Development",
+        description:
+            "Diseño y desarrollo de interfaces responsivas, intuitivas y centradas en la experiencia del usuario, utilizando ReactJS y frameworks modernos.",
     },
     {
-        icon: <Computer />,
-        title: "Desarrollo web",
-        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
+        icon: <Server />,
+        title: "Backend Development",
+        description:
+            "Implementación de arquitecturas sólidas y seguras en el servidor, con experiencia en Java Spring Boot y .NET, garantizando rendimiento y escalabilidad.",
     },
     {
-        icon: <Book />,
-        title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
+        icon: <Database />,
+        title: "Gestión de Bases de Datos",
+        description:
+            "Diseño, optimización y administración de bases de datos SQL, asegurando integridad, eficiencia y disponibilidad de la información.",
     },
     {
-        icon: <Rocket />,
-        title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        icon: <Link2 />,
+        title: "Integración de APIs",
+        description:
+            "Conexión de aplicaciones con APIs externas y servicios de terceros, como REST APIs y Unsplash, para enriquecer la funcionalidad de cada proyecto.",
     },
-];
+    {
+        icon: <BarChart />,
+        title: "Dashboards e Informes en Power BI",
+        description:
+            "Desarrollo de reportes interactivos y dashboards claros en Power BI para análisis y toma de decisiones.",
+    },
+]
+
 
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
+        title: "Sistema Web BubbleHouse",
+        image: "/image-3.jpeg",
+        urlGithub: "https://github.com/JbDolmus/Project-BubbleHouse/tree/main/bubble-house-web",
         urlDemo: "#!",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Sistema de Administración de Tareas",
+        image: "/image-4.jpeg",
+        urlGithub: "https://github.com/JbDolmus/UpTask_UI",
+        urlDemo: "https://up-task-ui-five.vercel.app/",
     },
     {
         id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Web de Gestión de Pacientes",
+        image: "/image-5.jpeg",
+        urlGithub: "https://github.com/JbDolmus/patient-management",
+        urlDemo: "https://jbdev-patient-management.netlify.app/",
     },
     {
         id: 4,
-        title: "Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "App Control de Gastos",
+        image: "/image-6.jpeg",
+        urlGithub: "https://github.com/JbDolmus/control-gastos",
+        urlDemo: "https://jbdev-expense-control.netlify.app/",
     },
     {
         id: 5,
-        title: "Webs Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "App de Restaurante",
+        image: "/image-7.jpeg",
+        urlGithub: "https://github.com/JbDolmus/quiosco_next_app",
+        urlDemo: "https://quiosco-next-app-lilac.vercel.app/",
     },
     {
         id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 7,
-        title: "Dark Web ",
-        image: "/image-7.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 8,
-        title: "E-commerce web",
-        image: "/image-8.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Contador de Calorías",
+        image: "/image-8.jpeg",
+        urlGithub: "https://github.com/JbDolmus/calorie-counter",
+        urlDemo: "https://devjb-calorie-manager.netlify.app/",
     }
 ];
 
-export const dataTestimonials = [
+export const dataTechnologies = [
     {
         id: 1,
-        name: "George Snow",
+        name: "Java",
         description:
-            "¡Increíble plataforma! Los testimonios aquí son genuinos y me han ayudado a tomar decisiones informadas. ¡Altamente recomendado!",
-        imageUrl: "/profile1.png",
+            "Lenguaje de programación robusto y orientado a objetos, ideal para el desarrollo de aplicaciones empresariales y backend.",
+        imageUrl: "/java.png",
     },
     {
         id: 2,
-        name: "Juan Pérez",
+        name: "Spring Boot",
         description:
-            "Me encanta la variedad de testimonios disponibles en esta página. Es inspirador ver cómo otras personas han superado desafíos similares a los míos. ¡Gracias por esta invaluable fuente de motivación!",
-        imageUrl: "/profile2.png",
+            "Framework de Java que simplifica la creación de microservicios y aplicaciones escalables de manera ágil y eficiente.",
+        imageUrl: "/springboot.png",
     },
     {
         id: 3,
-        name: "María García",
+        name: "JavaScript",
         description:
-            "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!",
-        imageUrl: "/profile3.png",
+            "Lenguaje esencial para la web moderna, utilizado en el desarrollo de interfaces dinámicas e interactivas.",
+        imageUrl: "/javascript.png",
     },
     {
         id: 4,
-        name: "Laura Snow",
+        name: "HTML",
         description:
-            "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios.",
-        imageUrl: "/profile4.png",
+            "Lenguaje base para la estructura de páginas web, garantizando accesibilidad y semántica en los proyectos.",
+        imageUrl: "/html.png",
     },
     {
         id: 5,
-        name: "Carlos Sánchez",
+        name: "CSS",
         description:
-            "Una joya en la web. Los testimonios son fáciles de encontrar y están bien organizados. ¡Definitivamente mi destino número uno cuando necesito referencias confiables!",
-        imageUrl: "/profile5.png",
+            "Lenguaje de estilos que permite diseñar interfaces atractivas, responsivas y adaptadas a cualquier dispositivo.",
+        imageUrl: "/css.png",
     },
     {
         id: 6,
-        name: "Antonio Martínez",
+        name: "React JS",
         description:
-            "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
-        imageUrl: "/profile6.png",
+            "Biblioteca de JavaScript enfocada en la construcción de interfaces de usuario rápidas, escalables y modulares.",
+        imageUrl: "/react.png",
+    },
+    {
+        id: 7,
+        name: "Next JS",
+        description:
+            "Framework de React que facilita el desarrollo de aplicaciones web con renderizado híbrido (SSR y SSG).",
+        imageUrl: "/nextjs.png",
+    },
+    {
+        id: 8,
+        name: "MS SQL Server",
+        description:
+            "Sistema de gestión de bases de datos relacional de Microsoft, confiable para proyectos empresariales.",
+        imageUrl: "/mssql.png",
+    },
+    {
+        id: 9,
+        name: "MySQL",
+        description:
+            "Base de datos relacional ampliamente utilizada en aplicaciones web, conocida por su rendimiento y estabilidad.",
+        imageUrl: "/mysql.png",
+    },
+    {
+        id: 10,
+        name: "PHP",
+        description:
+            "Lenguaje de programación ampliamente usado en el desarrollo web backend, especialmente en aplicaciones dinámicas.",
+        imageUrl: "/php.png",
+    },
+    {
+        id: 11,
+        name: "Laravel",
+        description:
+            "Framework de PHP moderno y elegante que facilita el desarrollo de aplicaciones seguras y escalables.",
+        imageUrl: "/laravel.png",
+    },
+    {
+        id: 12,
+        name: "Power BI",
+        description:
+            "Herramienta de Microsoft para análisis de datos y visualización interactiva, ideal para la toma de decisiones empresariales.",
+        imageUrl: "/powerbi.png",
+    },
+    {
+        id: 13,
+        name: ".NET",
+        description:
+            "Framework de Microsoft para el desarrollo de aplicaciones multiplataforma, con soporte para backend y escritorio.",
+        imageUrl: "/dotnet.png",
+    },
+    {
+        id: 14,
+        name: "Tailwind CSS",
+        description:
+            "Framework de CSS basado en utilidades que permite construir interfaces modernas y personalizadas con rapidez.",
+        imageUrl: "/tailwind.png",
     },
 ];
