@@ -10,7 +10,7 @@ export default function ServicesPage() {
     <>
       <TransitionPage />
       <CircleImage />
-      <AvatarService />
+      {/* <AvatarService /> */}
 
       <div className='grid items-center justify-center h-screen max-w-5xl gap-6 mx-auto md:grid-cols-2 md:px-20'>
         <div className='max-w-[450px] mt-20 md:mt-0'>
@@ -27,7 +27,7 @@ export default function ServicesPage() {
             >Contáctame</Link>
           </div>
         </div>
-        <div>
+        <div className='mb-10'>
           <SliderServices />
         </div>
       </div>

@@ -10,7 +10,7 @@ export default function PortfolioPage() {
     return (
         <ContainerPage>
             <TransitionPage />
-            <AvatarPortfolio />
+            {/* <AvatarPortfolio /> */}
             <CircleImage />
 
             <div className="flex flex-col justify-center h-full">
