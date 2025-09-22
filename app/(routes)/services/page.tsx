@@ -27,7 +27,7 @@ export default function ServicesPage() {
             >Contáctame</Link>
           </div>
         </div>
-        <div className='mb-10'>
+        <div className='mb-16'>
           <SliderServices />
         </div>
       </div>
