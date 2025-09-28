@@ -8,7 +8,7 @@ export default function Introduction() {
     return (
         <div className="z-20 w-full bg-darkBg/60">
             <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
-                <Image src="/home-4.png" priority width="400" height="400" alt="Avatar" className="hidden md:inline-block"/>
+                <Image src="/home-4.png" priority width="400" height="400" alt="Home" className="hidden md:inline-block"/>
                 <div className="flex flex-col justify-center max-w-md">
                     <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">El código es creatividad hecha realidad: <br />
                         <TypeAnimation

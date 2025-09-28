@@ -15,7 +15,7 @@ export default function Navbar() {
             className="fixed z-40 flex flex-col items-center justify-center w-full mt-auto h-max bottom-10"
         >
             <Tooltip.Provider delayDuration={100}>
-                <nav className="flex items-center justify-center gap-2 px-4 py-1 rounded-full bg-white/15 backdrop-blur-sm">
+                <nav className="flex items-center justify-center gap-2 px-4 py-1 rounded-full bg-black/40 border border-white/20 backdrop-blur-md">
                     {itemsNavbar.map((item) => (
                         <Tooltip.Root key={item.id}>
                             <Tooltip.Trigger asChild>
