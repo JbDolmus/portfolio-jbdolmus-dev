@@ -1,10 +1,14 @@
 "use client"
 
 import { serviceData } from "@/data"
+import { useTranslations } from "next-intl"
 import { Pagination, Autoplay, Navigation } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 
 export default function SliderServices() {
+    
+    const t = useTranslations("services")
+
     return (
         <Swiper
             breakpoints={{
@@ -40,8 +44,8 @@ export default function SliderServices() {
                     <div className="flex px-6 py-8 h-auto md:h-[380px] rounded-lg cursor-pointer bg-[rgba(65,47,123,0.15)] sm:flex-col gap-x-6 sm:gap-x-0 group hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 hover:border-orange-400 border-2">
                         <div className="mb-4 text-4xl text-orange-400">{item.icon}</div>
                         <div>
-                            <h3 className="mb-4 text-lg">{item.title}</h3>
-                            <p className="text-sm">{item.description}</p>
+                            <h3 className="mb-4 text-lg">{t(item.titleKey)}</h3>
+                            <p className="text-sm">{t(item.descriptionKey)}</p>
                         </div>
                     </div>
                 </SwiperSlide>

@@ -1,24 +1,28 @@
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import Link from "next/link";
 
 interface PortfolioBoxProps {
     data: {
         id: number;
-        title: string;
+        titleKey: string;
         image: string;
         urlGithub: string;
         urlDemo: string;
     }
 }
 
-export default function PortfolioBox(props: PortfolioBoxProps) {
+export default async function PortfolioBox(props: PortfolioBoxProps) {
+
+    const t = await getTranslations("portfolio");
+
     const { data } = props;
-    const { title, image, urlGithub, urlDemo } = data;
+    const { titleKey, image, urlGithub, urlDemo } = data;
 
     return (
         <div className="p-4 border border-teal-50 rounded-xl">
             <h3 className="mb-4 text-xl">
-                {title}
+                {t(titleKey)}
             </h3>
             <Image src={image} alt="Image project" width={200} height={200} className="w-full md:w-[200px] rounded-2xl h-auto" />
             <div className="flex gap-5 mt-5">
