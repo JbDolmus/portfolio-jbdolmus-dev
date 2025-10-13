@@ -1,6 +1,7 @@
-import Link from "next/link"
+import { Link } from "@/src/i18n/routing"
 import TransitionComponent from "./TransitionComponent"
 import { socialNetworks } from "@/data"
+import LanguageSwitcher from "./LanguageSwitcher"
 
 export default function Header() {
     return (
@@ -20,6 +21,7 @@ export default function Header() {
                                 {logo}
                             </Link>
                         ))}
+                        <LanguageSwitcher />
                     </div>
                 </div>
             </header>

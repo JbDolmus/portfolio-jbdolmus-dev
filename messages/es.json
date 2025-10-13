@@ -1,0 +1,123 @@
+{
+    "Introduction": {
+        "title": "El código es creatividad hecha realidad:",
+        "subtitle1": "puedes innovar",
+        "subtitle2": "puedes crear",
+        "subtitle3": "puedes impactar",
+        "subtitle4": "puedes transformar",
+        "description": "                        Como Desarrollador Full Stack construyo aplicaciones web completas, escalables y centradas en el usuario. Transformo ideas en soluciones digitales innovadoras, combinando interfaces intuitivas con arquitecturas sólidas que generan impacto real y aportan valor a cada proyecto.",
+        "titleLinkProject": "Ver mis proyectos",
+        "titleLinkContact": "Contáctame"
+    },
+    "AboutMePage": {
+        "title1": "Toda mi",
+        "title2": "trayectoria profesional"
+    },
+    "ServicesPage": {
+        "title1": "Mis",
+        "title2": "Servicios",
+        "description": "Como Desarrollador Full Stack e Ingeniero en Sistemas, ofrezco soluciones digitales completas que abarcan todo el ciclo de desarrollo de aplicaciones web, desde la idea hasta la implementación",
+        "titleLinkContact": "Contáctame"
+    },
+    "PortfolioPage": {
+        "title1": "Mis últimos",
+        "title2": "trabajos realizados"
+    },
+    "navbar": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "services": "Servicios",
+        "portfolio": "Portafolios",
+        "technologies": "Tecnologías"
+    },
+    "about": {
+        "1": {
+            "title": "Desarrollador Full Stack",
+            "subtitle": "BeGreat",
+            "description": "En febrero de 2023, colaboré en equipo para desarrollar un sistema web para la gestión de cursos, inscripción de estudiantes y profesores, entre otras funcionalidades. Se utilizó Java con Spring Boot en el backend y ReactJS en el frontend, incorporando librerías de seguridad como JWT.",
+            "date": "Feb 2023"
+        },
+        "2": {
+            "title": "Desarrollador Full Stack",
+            "subtitle": "Aplicación móvil para Restaurante",
+            "description": "En febrero de 2024, trabajé junto a un equipo en el diseño de una aplicación móvil usando MAUI .NET en el frontend y .NET en el backend, ofreciendo una experiencia fluida y moderna para la gestión de un restaurante.",
+            "date": "Feb 2024"
+        },
+        "3": {
+            "title": "Frontend Developer",
+            "subtitle": "App de compra e intercambio de tickets",
+            "description": "En julio de 2024, diseñé junto a un equipo una aplicación multiplataforma para gestionar compra e intercambio de tickets, utilizando Django en el backend, ReactJS en el frontend web y React Native en el frontend móvil.",
+            "date": "Jul 2024"
+        },
+        "4": {
+            "title": "Frontend Developer",
+            "subtitle": "App para Restaurante",
+            "description": "En noviembre de 2024, desarrollé todo el frontend de una aplicación para un restaurante usando ReactJS, asegurando interfaces intuitivas y funcionales, trabajando en conjunto con otro desarrollador.",
+            "date": "Nov 2024"
+        },
+        "5": {
+            "title": "Práctica Profesional",
+            "subtitle": "Adnet Soluciones S.A.",
+            "description": "En noviembre de 2024, desarrollé un sistema de gestión de tickets tipo Trello, utilizando ReactJS, librerías como MUI para estilos, y conectando con la REST API de Unsplash para consumo de imágenes, aportando a un proyecto real durante mi práctica profesional.",
+            "date": "Nov 2024"
+        }
+    },
+    "counter": {
+        "experience": "Años de experiencia",
+        "clients": "Clientes satisfechos",
+        "projects_done": "Proyectos finalizados",
+        "projects_current": "Proyectos en curso"
+    },
+    "services": {
+        "fullstack": {
+            "title": "Desarrollo Full Stack",
+            "description": "Construcción de aplicaciones web completas y escalables, desde el frontend hasta el backend, aplicando tecnologías modernas y buenas prácticas."
+        },
+        "frontend": {
+            "title": "Desarrollador Frontend",
+            "description": "Diseño y desarrollo de interfaces responsivas, intuitivas y centradas en la experiencia del usuario, utilizando ReactJS y frameworks modernos."
+        },
+        "backend": {
+            "title": "Desarrollador Backend",
+            "description": "Implementación de arquitecturas sólidas y seguras en el servidor, con experiencia en Java Spring Boot y .NET, garantizando rendimiento y escalabilidad."
+        },
+        "database": {
+            "title": "Gestión de Bases de Datos",
+            "description": "Diseño, optimización y administración de bases de datos SQL, asegurando integridad, eficiencia y disponibilidad de la información."
+        },
+        "api": {
+            "title": "Integración de APIs",
+            "description": "Conexión de aplicaciones con APIs externas y servicios de terceros, como REST APIs y Unsplash, para enriquecer la funcionalidad de cada proyecto."
+        },
+        "powerbi": {
+            "title": "Dashboards e Informes en Power BI",
+            "description": "Desarrollo de reportes interactivos y dashboards claros en Power BI para análisis y toma de decisiones."
+        }
+    },
+    "portfolio": {
+        "1": "Sistema Web BubbleHouse",
+        "2": "Sistema de Administración de Tareas",
+        "3": "Web de Gestión de Pacientes",
+        "4": "App Control de Gastos",
+        "5": "App de Restaurante",
+        "6": "Contador de Calorías"
+    },
+    "TechnologiesPage": {
+        "title1": "Algunos frameworks",
+        "title2": "y tecnologías",
+        "java": "Lenguaje de programación robusto y orientado a objetos, ideal para el desarrollo de aplicaciones empresariales y backend.",
+        "springboot": "Framework de Java que simplifica la creación de microservicios y aplicaciones escalables de manera ágil y eficiente.",
+        "javascript": "Lenguaje esencial para la web moderna, utilizado en el desarrollo de interfaces dinámicas e interactivas.",
+        "html": "Lenguaje base para la estructura de páginas web, garantizando accesibilidad y semántica en los proyectos.",
+        "css": "Lenguaje de estilos que permite diseñar interfaces atractivas, responsivas y adaptadas a cualquier dispositivo.",
+        "react": "Biblioteca de JavaScript enfocada en la construcción de interfaces de usuario rápidas, escalables y modulares.",
+        "next": "Framework de React que facilita el desarrollo de aplicaciones web con renderizado híbrido (SSR y SSG).",
+        "mssql": "Sistema de gestión de bases de datos relacional de Microsoft, confiable para proyectos empresariales.",
+        "mysql": "Base de datos relacional ampliamente utilizada en aplicaciones web, conocida por su rendimiento y estabilidad.",
+        "php": "Lenguaje de programación ampliamente usado en el desarrollo web backend, especialmente en aplicaciones dinámicas.",
+        "laravel": "Framework de PHP moderno y elegante que facilita el desarrollo de aplicaciones seguras y escalables.",
+        "powerbi": "Herramienta de Microsoft para análisis de datos y visualización interactiva, ideal para la toma de decisiones empresariales.",
+        "dotnet": "Framework de Microsoft para el desarrollo de aplicaciones multiplataforma, con soporte para backend y escritorio.",
+        "tailwind": "Framework de CSS basado en utilidades que permite construir interfaces modernas y personalizadas con rapidez."
+    }
+}

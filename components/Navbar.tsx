@@ -1,13 +1,14 @@
 "use client";
 
 import { itemsNavbar } from "@/data";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { Link, usePathname } from "@/src/i18n/routing";
 import TransitionComponent from "./TransitionComponent";
-import * as Tooltip from "@radix-ui/react-tooltip"; // ✅ Importar Radix Tooltip
+import * as Tooltip from "@radix-ui/react-tooltip";
+import { useTranslations } from "next-intl";
 
 export default function Navbar() {
     const router = usePathname();
+    const t = useTranslations('navbar');
 
     return (
         <TransitionComponent
@@ -34,10 +35,7 @@ export default function Navbar() {
                             >
                                 <div className="flex flex-col items-center">
                                     <span className="font-semibold">
-                                        {item.titleEnglish}
-                                    </span>
-                                    <span className="text-orange-100">
-                                        {item.titleSpanish}
+                                        {t(item.titleKey)}
                                     </span>
                                 </div>
                                 <Tooltip.Arrow className="fill-orange-500/90" />

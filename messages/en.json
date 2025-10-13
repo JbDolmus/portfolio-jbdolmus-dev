@@ -1,0 +1,123 @@
+{
+    "Introduction": {
+        "title": "Code is creativity made real:",
+        "subtitle1": "you can innovate",
+        "subtitle2": "you can create",
+        "subtitle3": "you can impact",
+        "subtitle4": "you can transform",
+        "description": "As a Full Stack Developer, I build complete, scalable, and user-centric web applications. I transform ideas into innovative digital solutions, combining intuitive interfaces with robust architectures that generate real impact and add value to each project.",
+        "titleLinkProject": "See my projects",
+        "titleLinkContact": "Contact me"
+    },
+    "AboutMePage": {
+        "title1": "All my",
+        "title2": "professional career"
+    },
+    "ServicesPage": {
+        "title1": "My",
+        "title2": "Services",
+        "description": "As a Full Stack Developer and Systems Engineer, I offer complete digital solutions that cover the entire web application development cycle, from idea to implementation.",
+        "titleLinkContact": "Contact me"
+    },
+    "PortfolioPage": {
+        "title1": "My last",
+        "title2": "work done"
+    },
+    "navbar": {
+        "home": "Home",
+        "about": "About me",
+        "services": "Services",
+        "portfolio": "Portfolios",
+        "technologies": "Technologies"
+    },
+    "about": {
+        "1": {
+            "title": "Full Stack Developer",
+            "subtitle": "BeGreat",
+            "description": "In February 2023, I collaborated with a team to develop a web system for managing courses, student and teacher enrollment, and more. Java with Spring Boot was used for the backend and ReactJS for the frontend, incorporating security libraries such as JWT.",
+            "date": "Feb 2023"
+        },
+        "2": {
+            "title": "Full Stack Developer",
+            "subtitle": "Mobile App for Restaurant",
+            "description": "In February 2024, I worked with a team to design a mobile application using MAUI .NET for the frontend and .NET for the backend, providing a smooth and modern experience for restaurant management.",
+            "date": "Feb 2024"
+        },
+        "3": {
+            "title": "Frontend Developer",
+            "subtitle": "Ticket buying and exchange app",
+            "description": "In July 2024, I collaborated in designing a cross-platform app for managing ticket buying and exchange, using Django for the backend, ReactJS for the web frontend, and React Native for the mobile version.",
+            "date": "Jul 2024"
+        },
+        "4": {
+            "title": "Frontend Developer",
+            "subtitle": "Restaurant App",
+            "description": "In November 2024, I developed the entire frontend for a restaurant app using ReactJS, ensuring intuitive and functional interfaces, collaborating closely with another developer.",
+            "date": "Nov 2024"
+        },
+        "5": {
+            "title": "Professional Internship",
+            "subtitle": "Adnet Soluciones S.A.",
+            "description": "In November 2024, I developed a Trello-style ticket management system using ReactJS, styling libraries like MUI, and connected it to Unsplash’s REST API for image consumption, contributing to a real-world project during my internship.",
+            "date": "Nov 2024"
+        }
+    },
+    "counter": {
+        "experience": "Years of experience",
+        "clients": "Satisfied clients",
+        "projects_done": "Completed projects",
+        "projects_current": "Ongoing projects"
+    },
+    "services": {
+        "fullstack": {
+            "title": "Full Stack Development",
+            "description": "Building complete and scalable web applications, from frontend to backend, applying modern technologies and best practices."
+        },
+        "frontend": {
+            "title": "Frontend Development",
+            "description": "Design and development of responsive, intuitive interfaces focused on user experience, using ReactJS and modern frameworks."
+        },
+        "backend": {
+            "title": "Backend Development",
+            "description": "Implementation of robust and secure server architectures, experienced with Java Spring Boot and .NET, ensuring performance and scalability."
+        },
+        "database": {
+            "title": "Database Management",
+            "description": "Design, optimization, and administration of SQL databases, ensuring data integrity, efficiency, and availability."
+        },
+        "api": {
+            "title": "API Integration",
+            "description": "Connecting applications with external APIs and third-party services such as REST APIs and Unsplash to enrich project functionality."
+        },
+        "powerbi": {
+            "title": "Dashboards and Reports in Power BI",
+            "description": "Development of clear, interactive Power BI reports and dashboards for data-driven decision-making."
+        }
+    },
+    "portfolio": {
+        "1": "BubbleHouse Web System",
+        "2": "Task Management System",
+        "3": "Patient Management Web",
+        "4": "Expense Control App",
+        "5": "Restaurant App",
+        "6": "Calorie Counter"
+    },
+    "TechnologiesPage": {
+        "title1": "Some frameworks",
+        "title2": "and technologies",
+        "java": "Robust and object-oriented programming language, ideal for enterprise and backend applications.",
+        "springboot": "Java framework that simplifies the creation of microservices and scalable applications efficiently.",
+        "javascript": "Essential language for modern web development, used for creating dynamic and interactive interfaces.",
+        "html": "Markup language that structures web pages, ensuring accessibility and semantic consistency.",
+        "css": "Style language that enables the design of attractive, responsive, and device-adaptive interfaces.",
+        "react": "JavaScript library focused on building fast, scalable, and modular user interfaces.",
+        "next": "React framework that enables hybrid rendering (SSR and SSG) for modern web applications.",
+        "mssql": "Microsoft’s relational database management system, reliable for enterprise-grade projects.",
+        "mysql": "Widely used relational database known for its performance and stability in web applications.",
+        "php": "Programming language widely used for backend web development, especially for dynamic applications.",
+        "laravel": "Modern and elegant PHP framework that simplifies building secure and scalable applications.",
+        "powerbi": "Microsoft’s tool for data analysis and interactive visualization, ideal for business decision-making.",
+        "dotnet": "Microsoft framework for cross-platform development, supporting backend and desktop applications.",
+        "tailwind": "Utility-first CSS framework that enables fast and modern UI design customization."
+    }
+}
