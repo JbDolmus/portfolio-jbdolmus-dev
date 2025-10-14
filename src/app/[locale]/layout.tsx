@@ -21,27 +21,27 @@ export const metadata: Metadata = {
   description: "Portfolio website made by JBDolmus",
 };
 
-export default async function RootLayout({
-  children,
-  params
-}: Readonly<{
-  children: React.ReactNode
-  params: any
-}>) {
+interface RootLayoutProps {
+  children: React.ReactNode;
+  params: Promise<{ locale: (typeof routing.locales)[number] }>;
+}
 
+
+export default async function RootLayout({ children, params }: RootLayoutProps) {
+  
   const { locale } = await params;
-  if (!routing.locales.includes(locale as any)) {
+  if (!routing.locales.includes(locale)) {
     notFound();
   }
 
   const messages = await getMessages();
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body
         className={`${urbanist.className} antialiased`}
       >
 
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider messages={messages} locale={locale}>
           <Navbar />
           <Header />
           {children}
