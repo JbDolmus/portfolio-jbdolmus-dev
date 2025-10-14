@@ -5,7 +5,7 @@ type Locale = (typeof routing.locales)[number];
 
 export default getRequestConfig(async ({ requestLocale }) => {
 
-    let locale: Locale =
+    const locale: Locale =
         requestLocale && routing.locales.includes(await requestLocale as Locale)
             ? (await requestLocale as Locale)
             : routing.defaultLocale as Locale;
