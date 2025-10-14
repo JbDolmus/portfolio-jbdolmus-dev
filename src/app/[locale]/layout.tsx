@@ -23,14 +23,14 @@ export const metadata: Metadata = {
 
 interface RootLayoutProps {
   children: React.ReactNode;
-  params: Promise<{ locale: (typeof routing.locales)[number] }>;
+  params: Promise<{ locale: string }>;
 }
 
 
 export default async function RootLayout({ children, params }: RootLayoutProps) {
   
-  const { locale } = await params;
-  if (!routing.locales.includes(locale)) {
+  const { locale } =  await params;
+  if (!routing.locales.includes(locale as typeof routing.locales[number])) {
     notFound();
   }
 
